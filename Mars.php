@@ -14,6 +14,6 @@ $json_arr[]=array(
    'imagen'=>$_REQUEST['imagen']
 );
 file_put_contents($filename, json_encode($json_arr));
-header("Location:http://localhost/Oblivion/mars.html")
+header("Location:http://localhost/100622/index.html")
 
 ?>
